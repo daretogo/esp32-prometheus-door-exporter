@@ -1,4 +1,4 @@
-#What is this? 
+# What is this? 
 
 This is a very simple webserver that runs on a ESP32 that takes a reading from a door sensor and provides a binary open/close metric. 
 As checked in this repo it's at http://ip-of-your-esp32:9000
