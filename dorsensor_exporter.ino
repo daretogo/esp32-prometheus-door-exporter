@@ -10,7 +10,7 @@ void handle_request() {
     doorState = digitalRead(DOOR_SENSOR_PIN); // read state
     Serial.println(doorState);
     
-    String HTMLData = "current{label=\"phase1\"} " + String(doorState);
+    String HTMLData = "door_status{label=\"front\"} " + String(doorState);
     httpServer.send(200, "text/html", HTMLData);
     
 } 
